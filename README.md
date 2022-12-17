@@ -3,6 +3,8 @@
 
 As shown in the following image, the styles that are downloaded have priority according to the device from which the content is being viewed. This would be especially useful when you have Mobile-First designs so that for mobile devices only the mobile styles have to be downloaded, thus reducing the loading time.
 
+[Click here to view the demo](https://monterourena.github.io/performance-optimization-responsive-design-sass/)
+
 ### Desktop
 ![image](https://user-images.githubusercontent.com/117543842/208227794-083c4bd0-02c7-48ce-9d6f-024d81f67486.png)
 
@@ -11,3 +13,6 @@ As shown in the following image, the styles that are downloaded have priority ac
 
 ### Mobile
 ![image](https://user-images.githubusercontent.com/117543842/208227816-af6d9b11-1fe2-44b5-b87d-54503a2353b5.png)
+
+
+
