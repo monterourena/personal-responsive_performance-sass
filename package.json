@@ -4,7 +4,7 @@
   "description": "Repository created to propose a way to optimize responsive design with SASS",
   "main": "index.js",
   "scripts": {
-    "build-sass-desktop": "node-sass --include-path scss scss/main.scss css/style.css -w",
+    "build-sass-desktop": "node-sass --include-path scss scss/main.scss css/style.desktop.css -w",
     "build-sass-tablet": "node-sass --include-path scss scss/main.tablet.scss css/style.tablet.css -w",
     "build-sass-mobile": "node-sass --include-path scss scss/main.mobile.scss css/style.mobile.css -w"
   },

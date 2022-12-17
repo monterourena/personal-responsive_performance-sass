@@ -12,7 +12,10 @@
   height: 50vh;
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  font-size: 32px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white; }
 
 .element--1 {
   background-color: #331ef3; }
