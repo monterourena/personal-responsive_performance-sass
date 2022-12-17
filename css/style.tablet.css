@@ -1,0 +1,21 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); }
+
+.element--1 {
+  background-color: #f3b01e; }
+
+.element--2 {
+  background-color: #f3ba1ee5; }
+
+.element--3 {
+  background-color: #f3a81ead; }
+
+.element--4 {
+  background-color: #f3a81e75; }
+
+.element--5 {
+  background-color: #f3b01e48; }
+
+.element--6 {
+  background-color: #f3ba1e18; }

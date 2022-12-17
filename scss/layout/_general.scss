@@ -1,0 +1,23 @@
+* {
+  box-sizing: content-box;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.element {
+  width: auto;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@each $number, $color in $gridColors {
+  .element--#{$number} {
+    background-color: $color;
+  }
+}

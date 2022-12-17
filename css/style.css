@@ -1,0 +1,33 @@
+* {
+  box-sizing: content-box;
+  margin: 0;
+  padding: 0; }
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); }
+
+.element {
+  width: auto;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.element--1 {
+  background-color: #331ef3; }
+
+.element--2 {
+  background-color: #331ef3e5; }
+
+.element--3 {
+  background-color: #331ef3ad; }
+
+.element--4 {
+  background-color: #331ef375; }
+
+.element--5 {
+  background-color: #331ef348; }
+
+.element--6 {
+  background-color: #331ef318; }
