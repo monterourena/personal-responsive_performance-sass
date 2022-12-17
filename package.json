@@ -1,0 +1,24 @@
+{
+  "name": "sass-responsive-design-performance-optimization",
+  "version": "1.0.0",
+  "description": "Repository created to propose a way to optimize responsive design with SASS",
+  "main": "index.js",
+  "scripts": {
+    "build-sass-desktop":"node-sass --include-path scss scss/main.scss css/style.css -w",
+    "build-sass-tablet":"node-sass --include-path scss scss/main.tablet.scss css/style.tablet.css -w",
+    "build-sass-mobile":"node-sass --include-path scss scss/main.mobile.scss css/style.mobile.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monterourena/performance-optimization-responsive-design-sass.git"
+  },
+  "author": "Jose David Montero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/monterourena/performance-optimization-responsive-design-sass/issues"
+  },
+  "homepage": "https://github.com/monterourena/performance-optimization-responsive-design-sass#readme",
+  "devDependencies": {
+    "node-sass": "^8.0.0"
+  }
+}
