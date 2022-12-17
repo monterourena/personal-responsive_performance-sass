@@ -1,5 +1,4 @@
-# Performance optimization - Responsive design with SASS
-## Style segmentation of a responsive design using SASS as CSS pre-processor
+# Performance Optimization - Style segmentation of a responsive design using SASS as CSS pre-processor
 
 As shown in the following image, the styles that are downloaded have priority according to the device from which the content is being viewed. This would be especially useful when you have Mobile-First designs so that for mobile devices only the mobile styles have to be downloaded, thus reducing the loading time.
 
